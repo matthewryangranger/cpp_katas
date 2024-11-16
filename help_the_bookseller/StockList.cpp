@@ -1,4 +1,5 @@
 #include <map>
+#include <sstream>
 
 class StockList
 {
@@ -12,22 +13,31 @@ public:
 
     static std::string stockSummaryHelper(std::vector<std::string>& books, std::vector<std::string>& categories)
     {
-        std::map<std::string, std::string> stock_map;
+        std::map<std::string,int> stock_map;
+        std::vector<std::string> order;
         std::string return_str;
-        // for (std::string s: categories){
-        //     stock_map.insert(std::pair<std::string, std::string>(std::to_string(s[0]), "0"));
-        // }
 
-        for (std::string s: books){
-            //if (stock_map.contains(std::to_string(s[0])))
-            stock_map.emplace(std::pair(std::string(1, s[0]), s.substr(5, s.length())));
+        for (const std::string& s: categories)
+        {
+            order.push_back(s);
+            stock_map.emplace(s, 0);
         }
 
-        // Create the string
-        int i = 0;
-        for (const auto& [key, value] : stock_map)
+        for (const std::string& s : books) {
+            std::istringstream iss(s);
+            std::string book_code;
+            int value;
+            if (iss >> book_code >> value) {
+                std::string key = std::string(1, book_code[0]);
+                if (stock_map.find(key) != stock_map.end())
+                    stock_map[key] += value;
+            }
+        }
+
+        size_t i = 0;
+        for (const std::string& s: order)
         {
-            return_str += "(" + key + " : " + value + ")";
+            return_str += "(" + s + " : " + std::to_string(stock_map[s]) + ")";
             i++;
             if (i == stock_map.size())
                 break;
