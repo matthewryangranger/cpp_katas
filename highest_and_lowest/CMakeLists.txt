@@ -1,4 +1,5 @@
 cmake_minimum_required(VERSION 3.29)
+project(highest_and_lowest)
 include(FetchContent)
 include(GoogleTest)
 
