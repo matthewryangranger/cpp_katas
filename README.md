@@ -5,4 +5,4 @@
 > 
 > Kata -> **Highest And Lowest** | {Began Nov 16 2024, Solved Nov 17}
 >
-> Kata -> **Friend Or Foe** | {Began Nov 17 2024, Solved XXX}
+> Kata -> **Friend Or Foe** | {Began Nov 17 2024, Solved Nov 17}
