@@ -11,16 +11,17 @@ class HighestLowest
         std::istringstream iss(numbers);
         int32_t number;
 
+        if (!(iss >> number))
+            return "";
+
+        high = low = number;
+
         while (iss >> number)
         {
             if (number < low)
-            {
                 low = number;
-            }
             if (number > high)
-            {
                 high = number;
-            }
         }
         return std::to_string(high) + " " + std::to_string(low);
     }
