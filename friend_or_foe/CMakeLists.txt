@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.29)
-project(highest_and_lowest)
+project(friend_or_foe)
 include(FetchContent)
 include(GoogleTest)
 
@@ -15,9 +15,9 @@ FetchContent_MakeAvailable(googletest)
 
 enable_testing()
 
-add_executable(highlowtest
-        HighestLowest.cpp
-        HighestLowest_Tests.cpp
+add_executable(friendfoetest
+        FriendFoe.cpp
+        FriendFoe_Tests.cpp
 )
-target_link_libraries(highlowtest GTest::gtest_main)
-gtest_discover_tests(highlowtest)
+target_link_libraries(friendfoetest GTest::gtest_main)
+gtest_discover_tests(friendfoetest)
