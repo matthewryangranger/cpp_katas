@@ -6,3 +6,5 @@
 > Kata -> **Highest And Lowest** | {Began Nov 16 2024, Solved Nov 17}
 >
 > Kata -> **Friend Or Foe** | {Began Nov 17 2024, Solved Nov 17}
+>
+> Kata -> **Sum Between Numbers** | {Began Nov 18 2024, Solved XXX}
