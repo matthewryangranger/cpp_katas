@@ -8,3 +8,5 @@
 > Kata -> **Friend Or Foe** | {Began Nov 17 2024, Solved Nov 17}
 >
 > Kata -> **Sum Between Numbers** | {Began Nov 18 2024, Solved Nov 19}
+>
+> Kata -> **Stop gninnipS My sdroW!** | {Began Nov 19 2024, Solved XXX}
