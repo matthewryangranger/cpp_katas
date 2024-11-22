@@ -15,3 +15,18 @@ TEST(Who_Likes_It_Tests, BasicTest)
     // Assert
     ASSERT_EQ(expected, result);
 }
+
+TEST(Who_Likes_It_Tests, OneNameTest)
+{
+    // Arrange
+    Who_Likes_It unit = Who_Likes_It();
+
+    // Act
+    std::vector<std::string> names;
+    names.push_back("Peter");
+    std::string expected = "Peter likes this";
+    std::string result = unit.likes(names);
+
+    // Assert
+    ASSERT_EQ(expected, result);
+}

@@ -8,6 +8,10 @@ class Who_Likes_It
     {
         std::string result;
         if (names.size() == 0)
-            return "no one likes this";
+            result += "no one";
+        for (std::string name : names)
+            result += name;
+        result += " likes this";
+        return result;
     }
 };
