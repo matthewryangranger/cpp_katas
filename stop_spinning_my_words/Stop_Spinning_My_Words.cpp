@@ -1,4 +1,3 @@
-#include <regex>
 #include <sstream>
 
 class Stop_Spinning_My_Words
