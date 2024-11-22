@@ -9,4 +9,6 @@
 >
 > Kata -> **Sum Between Numbers** | {Began Nov 18 2024, Solved Nov 19}
 >
-> Kata -> **Stop gninnipS My sdroW!** | {Began Nov 19 2024, Solved Nov 21}
+> Kata -> **Stop Spinning My Words!** | {Began Nov 19 2024, Solved Nov 21}
+>
+> Kata -> **Who Likes It** | {Began Nov 21 2024, Solved XXX}
