@@ -12,3 +12,5 @@
 > Kata -> **Stop Spinning My Words!** | {Began Nov 19 2024, Solved Nov 21}
 >
 > Kata -> **Who Likes It** | {Began Nov 21 2024, Solved Nov 21}
+>
+> Kata -> **Are They The Same** | {Began Nov 26 2024, Solved XXX}
