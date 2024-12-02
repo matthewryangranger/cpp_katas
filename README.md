@@ -13,4 +13,4 @@
 >
 > Kata -> **Who Likes It** | {Began Nov 21 2024, Solved Nov 21}
 >
-> Kata -> **Are They The Same** | {Began Nov 26 2024, Solved XXX}
+> Kata -> **Are They The Same** | {Began Nov 26 2024, Solved Dec 1}
