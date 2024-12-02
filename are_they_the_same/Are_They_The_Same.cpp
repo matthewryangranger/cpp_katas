@@ -1,5 +1,3 @@
-#ifndef SOLUTION_H
-#define SOLUTION_H
 #include <vector>
 #include <cmath>
 #include <map>
@@ -25,11 +23,10 @@ public:
 
         for (int b_number : b) {
             int reduced = reduceNumber(b_number);
-            if (reduced * reduced != b_number || a_value_Count.find(reduced) == a_value_Count.end())
+            if (reduced * reduced != b_number || !a_value_Count.contains(reduced))
                 return false;
             b_value_Count[reduced]++;
         }
         return a_value_Count == b_value_Count;
     }
 };
-#endif // SOLUTION_H
