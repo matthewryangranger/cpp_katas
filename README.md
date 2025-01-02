@@ -1,5 +1,6 @@
 ## Coding Katas | Solved in C++ by using TDD (w/ GoogleTest as my testing framework)
 
+Latter End of 2024
 
 > Kata -> **Help The Bookseller** | {Began Nov 14 2024, Solved Nov 16}
 > 
@@ -14,3 +15,8 @@
 > Kata -> **Who Likes It** | {Began Nov 21 2024, Solved Nov 21}
 >
 > Kata -> **Are They The Same** | {Began Nov 26 2024, Solved Dec 1}
+>
+
+2025 
+>
+> Kata -> **Matrix Creation** | {Began Jan 1 2025, Solved XXX}
