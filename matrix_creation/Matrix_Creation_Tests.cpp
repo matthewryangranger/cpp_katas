@@ -1,6 +1,7 @@
 #include <gtest/gtest.h>
 #include <iostream>
 #include <vector>
+#include "Matrix_Creation.cpp"
 
 // Overload operator<< to print std::vector<std::vector<int>>
 std::ostream& operator<<(std::ostream& os, const std::vector<std::vector<int>>& matrix) {
@@ -14,7 +15,6 @@ std::ostream& operator<<(std::ostream& os, const std::vector<std::vector<int>>& 
     }
     return os;
 }
-#include "Matrix_Creation.cpp"
 
 TEST(Matrix_Creation_Tests, BasicTestForZeroMatrix)
 {
