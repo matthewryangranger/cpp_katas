@@ -1,7 +1,10 @@
-#include <iostream>
+#include <vector>
 
-int main()
+class Matrix_Creation
 {
-    std::cout << "Hello, World!" << std::endl;
-    return 0;
-}
+public:
+  std::vector<std::vector<int>> getMatrix(const int n)
+  {
+    return std::vector<std::vector<int>>();
+  }
+};
