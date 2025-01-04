@@ -19,4 +19,4 @@ Latter End of 2024
 
 2025 
 >
-> Kata -> **Matrix Creation** | {Began Jan 1 2025, Solved XXX}
+> Kata -> **Matrix Creation** | {Began Jan 1 2025, Solved Jan 3 2025}
