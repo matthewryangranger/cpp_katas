@@ -23,7 +23,7 @@ public:
     std::vector<int> row = {};
   if (n_matrix_value != 0)
   {
-    for (int i = 1; i <= iteration_value; i++)
+    for (int i = 1; i <= n_matrix_value; i++)
     {
       if (i != iteration_value)
       {

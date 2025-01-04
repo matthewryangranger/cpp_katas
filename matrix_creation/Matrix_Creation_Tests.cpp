@@ -41,3 +41,29 @@ TEST(Matrix_Creation_Tests, BasicTestForOneMatrix)
     // Assert
     ASSERT_EQ(expected, unit.getMatrix(numberOfMatrix));
 }
+
+TEST(Matrix_Creation_Tests, BasicTestForTwoMatrix)
+{
+    // Arrange
+    auto unit = Matrix_Creation();
+
+    // Act
+    constexpr int numberOfMatrix = 2;
+    std::vector<std::vector<int>> expected = {{1,0},{0,1}};
+
+    // Assert
+    ASSERT_EQ(expected, unit.getMatrix(numberOfMatrix));
+}
+
+TEST(Matrix_Creation_Tests, BasicTestForFiveMatrix)
+{
+    // Arrange
+    auto unit = Matrix_Creation();
+
+    // Act
+    constexpr int numberOfMatrix = 5;
+    std::vector<std::vector<int>> expected = {{1,0,0,0,0},{0,1,0,0,0}, {0,0,1,0,0}, {0,0,0,1,0}, {0,0,0,0,1} };
+
+    // Assert
+    ASSERT_EQ(expected, unit.getMatrix(numberOfMatrix));
+}
