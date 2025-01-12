@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.29)
-project(matrix_creation)
+project(roman_numerals_encoder)
 include(FetchContent)
 include(GoogleTest)
 

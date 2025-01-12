@@ -5,6 +5,9 @@ class Roman_Numerals_Encoder
 public:
   std::string solution(int number){
     // convert the number to a roman numeral
-    return std::string("");
+    std::string result;
+    if (number == 1)
+      result = "I";
+    return result;
   }
 };
