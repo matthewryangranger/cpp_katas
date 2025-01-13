@@ -6,8 +6,8 @@ public:
   std::string solution(int number){
     // convert the number to a roman numeral
     std::string result;
-    if (number == 1)
-      result = "I";
+    for (int i = 1; i <= number; i++)
+      result += "I";
     return result;
   }
 };
