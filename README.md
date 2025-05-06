@@ -22,3 +22,5 @@ Latter End of 2024
 > Kata -> **Matrix Creation** | {Began Jan 1 2025, Solved Jan 3 2025}
 >
 > Kata -> **Roman Numerals Encoder** | {Began Jan 8 2025, Solved XXX}
+>
+> Kata -> **Emily Bache - Fizzbuzz** | {Began May 6 2025, Solved XXX}

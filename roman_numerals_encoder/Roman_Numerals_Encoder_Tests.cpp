@@ -33,3 +33,14 @@ TEST(Roman_Numerals_Encoder_Tests, BasicTestForNumberThree)
   // Assert
   ASSERT_EQ(expected, unit.solution(number));
 }
+
+TEST(Roman_Numerals_Encoder_Tests, BasicTestForNumberFour)
+{
+  // Arrange
+  Roman_Numerals_Encoder unit = Roman_Numerals_Encoder();
+  // Act
+  int number = 4;
+  std::string expected = "IV";
+  // Assert
+  ASSERT_EQ(expected, unit.solution(number));
+}

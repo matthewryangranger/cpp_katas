@@ -6,8 +6,9 @@ public:
   std::string solution(int number){
     // convert the number to a roman numeral
     std::string result;
-    for (int i = 1; i <= number; i++)
-      result += "I";
-    return result;
+    if (number >= 1 && number <= 3999)
+    {
+      return "I";
+    }
   }
 };
